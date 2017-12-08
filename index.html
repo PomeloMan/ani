@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/ani.css">
+<style>
+body {
+    background-color: rgba(246, 246, 246, 1);
+}
+div {
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    margin: 10px;
+}
+</style>
+</head>
+<body>
+    <section style="display:-webkit-inline-box; width:100%;">
+        <div class="ani card card-hover card-lighter fade-in-left"></div>
+        <div class="ani card card-hover card-light fade-in-left"></div>
+        <div class="ani slow card fade-in-left"></div>
+        <div class="ani slower card card-hover card-dark fade-in-left"></div>
+        <div class="ani slowest card card-hover card-darker fade-in-left"></div>
+    </section>
+    <section>
+        <p class="ani slowest warp-in-left" style="text-align:center">
+            <span class="ani slower underline primary">Move over here to see the primary animation...</span>
+            <br>
+            <br>
+            <span class="ani slower underline accent">Move over here to see the accent animation...</span>
+            <br>
+            <br>
+            <span class="ani slower underline warn">Move over here to see the warn animation...</span>
+        </p>
+    </section>
+</body>
+</html>
